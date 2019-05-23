@@ -2,7 +2,7 @@
 The validation data and testing data for ASC19 face super resolution challenge. https://www.asc-events.org/ASC19/
 
 
-## Description about the challenge
+## The challenge
 
 **Goal**: Face Super Resolution (FSR), also known as face hallucination, is a domain-specific super-resolution problem. As a specific problem of Super-Resolution (SR), the aim of FSR is to generate high-resolution (HR) face images from low-resolution (LR) face images. One of the ultimate goals in FSR is to explore image intensity correspondences between LR and HR faces from large scale dataset and generate HR face images closed to the ground truth HR face images. In the final competition, the participant should design/tuning their algorithm designed in the preliminary competition to do the 4x FSR upscaling for face images which were down-sampled with a bicubic kernel. For instance, the resolution of a 400x600 image after 4x upscaling is 1600x2400. An example is given below, left is HR face image which resolution is 128x128, and right is the 4x down-sampling image which resolution is 32x32.
 
@@ -18,7 +18,7 @@ c)	Each team is required to use PyTorch for this task. Any other deep learning f
 
 
 
-## Description about the data
+## About the data
 There are 300 images for validation and 300 images for scoring. The resoultion of HR image is 96x112, and the resolution of 4x down-sampling LR image is 24x28.
 
 
