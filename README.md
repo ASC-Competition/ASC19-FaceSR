@@ -2,11 +2,11 @@
 The validation data and testing data for ASC19 face super resolution challenge. https://www.asc-events.org/ASC19/
 
 
-# Description about the data
+## Description about the data
 There are 300 images for validation and 300 images for scoring. The high resoultion for images is 96x112, and 4x down-sampling low resolution images is 24x28.
 
 
-# Scoring the super resolution results
+## Scoring the super resolution results
 ```
 1. Download the pre-trained sphereface network from https://github.com/clcarwin/sphereface_pytorch
 2. python evaluate.py --model shpereface_model.pth --HR_dir <> --SR_dir <>
