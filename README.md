@@ -1,5 +1,5 @@
 # ASC19-FaceSR
-The validation data and testing data for ASC19 face super resolution challenge
+The validation data and testing data for ASC19 face super resolution challenge. https://www.asc-events.org/ASC19/
 
 
 ## Description about the challenge
@@ -8,8 +8,10 @@ The validation data and testing data for ASC19 face super resolution challenge
 
 
 a)	On the spot in the final competition, the committee will supply scoring script, training dataset and test dataset. all test-dataset face images have identical resolution. 
+
 b)	Each team should submit all of the reconstructed high-resolution face images of test dataset for scoring test. The goal is to achieve the identity similarity (IS) value close to 1. IS is the cosine similarity of the two feature vectors of the HR face and SR face, while the feature vector is extracted from the 512-D embedding feature of SphereFace model (https://github.com/clcarwin/sphereface_pytorch ).
+
 c)	Each team is required to use PyTorch for this task. Any other deep learning framework will be prohibited. 
 
 
-## 
+
