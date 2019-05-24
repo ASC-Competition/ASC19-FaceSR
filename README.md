@@ -18,7 +18,7 @@ c)	Each team is required to use PyTorch for this task. Any other deep learning f
 
 
 
-## About the data
+## The dataset
 There are 300 images for validation and 300 images for scoring. The resoultion of HR image is 96x112, and the resolution of 4x down-sampling LR image is 24x28.
 
 
